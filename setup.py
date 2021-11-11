@@ -58,7 +58,7 @@ setup(
         'XBlock',
         'xblock-mentoring',
     ],
-    dependency_links = ['http://github.com/edx-solutions/xblock-mentoring/tarball/master#egg=xblock-mentoring'],
+    dependency_links = [],
     entry_points={
         'xblock.v1': BLOCKS,
         'xblock.light_children': BLOCKS_CHILDREN,
